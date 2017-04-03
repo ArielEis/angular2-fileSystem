@@ -1,0 +1,24 @@
+.directory {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  font-size: 110%;
+  font-weight: bold;
+
+  .close-dir {
+    content: url('/src/app/image/close_directory.png');
+    width: 20px;
+    cursor: pointer;
+  }
+
+  .open-dir {
+    content: url('/src/app/image/open_directory.png');
+    width: 20px;
+    cursor: pointer;
+  }
+
+  span {
+    cursor: pointer;
+  }
+}

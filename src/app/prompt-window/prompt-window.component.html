@@ -1,0 +1,10 @@
+ <div class="prompt-title">
+   <span>{{title}}</span>
+    <button (click)="fs.closePrompt()">X</button>
+  </div>
+
+<div class="prompt-body">
+   <span>{{instruction}}</span>
+   <input type="text" placeholder="name" #name myAutofocus>
+   <button (click)="fs.callback(name.value, name)">OK</button>
+ </div>

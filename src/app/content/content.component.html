@@ -1,0 +1,20 @@
+<div class="content">
+  <div class="content-files">
+    <div class="item" *ngFor="let folder of folders">
+      <app-folder
+        *ngIf="fs.isContentOpen"
+        [title]="folder.name"
+        [id]="folder._id"
+      >
+      </app-folder>
+    </div>
+    <div class="item" *ngFor="let file of files">
+      <app-file
+        *ngIf="fs.isContentOpen"
+        [title]="file.name"
+        [id]="file._id"
+      >
+      </app-file>
+    </div>
+  </div>
+</div>

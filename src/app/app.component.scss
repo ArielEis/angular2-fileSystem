@@ -1,0 +1,37 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+
+  .top{
+    height: 8%;
+    width: 100%;
+  }
+  .middle {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5%;
+    height: 89.5%;
+    width: 100%;
+
+    .browser{
+      width: 22%;
+      height: 100%;
+      position: relative;
+      outline: 2px solid black;
+      background-color: snow;
+      text-indent: 5%;
+    }
+
+    .content {
+      margin-left: 0.5%;
+      width: 76.5%;
+      height: 100%;
+    }
+  }
+}
+
+#prompt {
+  display: none;
+}

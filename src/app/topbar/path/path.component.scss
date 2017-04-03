@@ -1,0 +1,17 @@
+.path {
+  display: block;
+  position: relative;
+  height: 100%;
+  width: 100%;
+
+  input {
+    display: block;
+    position: relative;
+    outline: 2px groove black;
+    left: 4%;
+    top: 12%;
+    font-size: 150%;
+    width: 90%;
+    text-indent: 2%;
+  }
+}

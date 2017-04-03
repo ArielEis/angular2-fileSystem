@@ -1,0 +1,8 @@
+<app-directory
+    *ngIf="!isFetching"
+    [title]="fs.tree.name"
+    [id]="fs.tree._id"
+    [items]="fs.tree.children"
+  >
+</app-directory>
+

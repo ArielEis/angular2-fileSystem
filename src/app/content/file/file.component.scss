@@ -1,0 +1,22 @@
+.file-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10%;
+  flex-grow: 0;
+  width: 100%;
+  height: 100%;
+
+  .directory {
+    content: url("../../image/txt.png");
+    width: 60%;
+    height: 60%;
+  }
+
+  .item-name {
+    position: relative;
+    top: 4%;
+    left: 3%;
+  }
+}
+
+

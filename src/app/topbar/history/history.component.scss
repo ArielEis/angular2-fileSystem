@@ -1,0 +1,15 @@
+.history {
+  height: 100%;
+  width: 100%;
+  display: block;
+  text-align: center;
+
+  button {
+    outline: 2px groove black;
+    background-color: darkgray;
+    font-size: 150%;
+    margin: 2%;
+    position: relative;
+    top: 5%;
+  }
+}

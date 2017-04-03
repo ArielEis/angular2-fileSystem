@@ -1,3 +1,20 @@
-<h1>
-  {{title}}
-</h1>
+<div class="page" oncontextmenu="return false">
+  <div class="top">
+    <app-topbar></app-topbar>
+  </div>
+  <div class="middle">
+    <div class="browser">
+      <app-browser-tree></app-browser-tree>
+    </div>
+    <div class="content">
+      <app-content></app-content>
+    </div>
+  </div>
+</div>
+
+<app-contextmenu></app-contextmenu>
+<div id="prompt">
+  <app-prompt-window></app-prompt-window>
+</div>
+<app-alert-window></app-alert-window>
+

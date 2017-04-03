@@ -1,0 +1,18 @@
+.topbar {
+  display: flex;
+  flex-direction: row;
+  outline: 2px solid black;
+  background-color: lightgray;
+  height: 100%;
+  width: 99%;
+
+  .history {
+    height: 100%;
+    width: 20%;
+  }
+
+  .path {
+    height: 100%;
+    width: 80%;
+  }
+}
